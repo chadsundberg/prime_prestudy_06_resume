@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  $('.master').on('click', 'button', function() {
-    $(this).toggleClass('.resume');
-  });
+  $('main').hide();
+  $('button').click(function() {
+      $('button').hide();
+      $('main').fadeIn(3000);
+    });
 });
