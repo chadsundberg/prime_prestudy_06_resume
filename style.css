@@ -1,8 +1,24 @@
-.resume {
-	display:none;
-}
 
-section.press button {
+button {
+	font: 16px Calibri, Sans-Serif;
+	color: white;
+	position: relative;
+	top: 200px;
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: auto;
+	font-size: 30px;
+	cursor: pointer;
+	background-color: Transparent;
+	transform: rotate(-5deg);
+	padding: 15px 15px;
+	margin-top: 20px;
+	-webkit-box-shadow: 20px 10px 20px 10px rgba(0, 0, 50, 0.97);
+	-moz-box-shadow: 20px 10px 20px 10px rgba(0, 0, 50, 0.97);
+	box-shadow: 20px 10px 20px 10px rgba(0, 0, 50, 0.97);
+}
+/*section.press button {
 	color: #fff;
 	background-color: #6496c8;
 	border: none;
@@ -20,9 +36,9 @@ section.press button.active {
 	background-color: #417cb8;
 	box-shadow: 0 5px #27496d;
 	transform: translateY(5px);
-}
+}*/
 
-html, body, header, article, section, h1, h2, h3, h4 {
+html, main, header, article, section, h1, h2, h3, h4 {
 	color: white;
 	padding: 0;
 	border: 0;
@@ -33,7 +49,12 @@ html, body, header, article, section, h1, h2, h3, h4 {
 	background: transparent;
 }
 
-body, #block-content {
+header:hover, section:hover, h1:hover, h2:hover, h3:hover, h4:hover, block-content:hover, li:hover, #content-info:hover {
+	background-color: #660066;
+	color: #FFFFCC;
+}
+
+main, #block-content {
 	font: 16px Calibri, Sans-Serif;
 	width: 800px;
 	margin: 10px auto 30px;
